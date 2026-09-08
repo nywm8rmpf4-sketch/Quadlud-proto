@@ -1,11 +1,21 @@
-# QUADLUD Prototype — Soleil–Lune Pattern Library
+# QUADLUD Proto — Soleil–Lune / Patterns
 
-Prototype autonome de recherche construit à partir des règles et du format du runtime Soleil–Lune de QUADLUD, baseline produit `12bb8e71d1eaa406f176d99403f34305b596e233`.
+Prototype jouable indépendant permettant de tester l’intégration de la bibliothèque de patterns P001–P018 dans trois usages : solveur perceptif, Logic Coach et Tuteur progressif.
 
-Il ne contient que Soleil–Lune et la bibliothèque perceptive P001–P018. Le recognizer travaille uniquement à partir de l’état visible. Les conclusions proposées sont vérifiées contre les complétions légales compatibles ; le validateur ne fournit jamais un coup de remplacement.
+Baseline produit vérifiée : `12bb8e71d1eaa406f176d99403f34305b596e233` (`fix/v3.1.9-hf3.9-semantic-r1`).
+Checkpoint recherche patterns : `09b714b7522b0f94faac8d7c1db786b26c61629d`.
 
-## Test
+## Contrat
 
-Ouvrir `index.html` via GitHub Pages. Choisir un scénario et un niveau de bibliothèque, puis utiliser **Pattern suivant**. Le plateau distingue contexte, focus et conclusion. **Pourquoi ?** développe la preuve pédagogique.
+- uniquement Soleil–Lune ;
+- aucun autre jeu QUADLUD ;
+- aucune solution cachée stockée dans les puzzles du prototype ;
+- le recognizer propose seulement depuis l’état visible ;
+- le validateur exact confirme/rejette une conclusion mais n’invente jamais un match manquant ;
+- Coach et Tuteur consomment le même `PatternMatch` validé ;
+- Tuteur : où regarder → règle → pourquoi → coup ;
+- les profils Débutant / Intermédiaire / Avancé limitent réellement la bibliothèque connue.
+
+Les parties Expert peuvent volontairement bloquer avec P001–P018 : ce blocage fait partie du pilote.
 
 Copyright © 2026 Serge Benoliel. All rights reserved.
