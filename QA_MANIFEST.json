@@ -1,0 +1,13 @@
+{
+  "prototype": "PATTERN-PROTO-2",
+  "productBaseline": "12bb8e71d1eaa406f176d99403f34305b596e233",
+  "patternResearchCheckpoint": "09b714b7522b0f94faac8d7c1db786b26c61629d",
+  "tests": {
+    "syntax": "PASS — registry, puzzles, core, line recognizer, engine, app, service worker",
+    "engineCorpus": "PASS — 13/13 checked; 9/9 easy-medium-hard solved; 4/4 expert blocked cleanly; 0 invalid PatternMatch",
+    "patternMatchContract": "PASS — visible premises + focusSequence + pedagogy + exact validation flags checked",
+    "staticScope": "PASS — Soleil-Lune only; no hidden solution stored",
+    "chromiumHeadless": "NOT VALIDATED — environment DBus timeout"
+  },
+  "packageSha256": "47c0320e01b81c6349891cd9ad0960935f73c3a95cfa1a6e88af00983fbb9629"
+}
