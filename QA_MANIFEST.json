@@ -1,28 +1,113 @@
 {
-  "prototype": "PATTERN-PROTO-2",
+  "prototype": "PATTERN-PROTO-3-HYBRID",
   "productBaseline": "12bb8e71d1eaa406f176d99403f34305b596e233",
+  "productTangoLogicBlob": "be1e16e4fb0e8b4631f4115c2a4fdf173fc972c2",
   "patternResearchCheckpoint": "09b714b7522b0f94faac8d7c1db786b26c61629d",
   "files": {
-    "LICENSE": {"bytes":309,"sha256":"13ac08ec366a589755a439882bed70518d3de5ebf55ca99db90f256e0c12be51"},
-    "README.md": {"bytes":1091,"sha256":"3c106bb3e6285b0c7e521db128959bb83599497ef1ed9013bd4b94242d771be4"},
-    "app.js": {"bytes":13129,"sha256":"893371c788ab5398b17d658f4302a3ac482f1ef7d65a5301eef6eb92fa5ecfd6"},
-    "build-info.json": {"bytes":411,"sha256":"c8e6ca7843429c9801d842159737ad8d692d5923d9ad5505343c88507e737387"},
-    "index.html": {"bytes":3214,"sha256":"8a9465daa44a68ac92be50b13763ec63190b8c11c410cab4dbb7cbb2ff6e8c9a"},
-    "manifest.webmanifest": {"bytes":174,"sha256":"6c9f671a211043ba3210956387fd0268e36fc26e42eebac6637b2d6a244bb672"},
-    "pattern-core.js": {"bytes":8340,"sha256":"7130d7fee226b91b1ee27bdd752419453ae4ae46a4b15c6bf2928cb696dadeaa"},
-    "pattern-line-recognizer.js": {"bytes":8989,"sha256":"8aa101cda826b31a6115dadc76639efdb24bb5d146369b8866ed3741730377e9"},
-    "pattern-engine.js": {"bytes":6586,"sha256":"2f83e1e9b69c1194f335ab0c1ecbd79976b93c6dab19b250aaed5bda6594d631"},
-    "pattern-registry.js": {"bytes":3266,"sha256":"58dc3b79c6b92e1fee1420e26b3a0a0be4c0b0077f8648f31f07c522b5421e1b"},
-    "puzzles.js": {"bytes":3302,"sha256":"a38fe7e90863ae67e7f564e916d44aad0ad5c9203675df6589c35a355df76339"},
-    "styles.css": {"bytes":4708,"sha256":"d11c1307c1a476872c50845b120c93632454e4307bedb433087c7901cfb7202a"},
-    "sw.js": {"bytes":643,"sha256":"c668095b81388de6c1fe1fb090a754f4a3fb11408c5322d1edf8c0cb5eef1330"}
+    "LICENSE": {
+      "bytes": 309,
+      "sha256": "13ac08ec366a589755a439882bed70518d3de5ebf55ca99db90f256e0c12be51"
+    },
+    "README.md": {
+      "bytes": 1720,
+      "sha256": "33ba48ad8f3cd86787fbfadc56afe25fa80f3564e05591028520f57cc23dcada"
+    },
+    "BENCHMARK_ANALYSIS.md": {
+      "bytes": 2729,
+      "sha256": "68979f94f61461774f396ba942e6ba87e5db3bdccad340a7798db3e8cede6def"
+    },
+    "app.js": {
+      "bytes": 15546,
+      "sha256": "069b70eb5a8a8e3f9f5a4841e09a9627b545dc8fb825b5733144e848d86b5365"
+    },
+    "build-info.json": {
+      "bytes": 490,
+      "sha256": "6498f603e41a458a5736f5501a8fa0b94d0924b243c58c3849b7368ce5bf9610"
+    },
+    "index.html": {
+      "bytes": 3670,
+      "sha256": "f1f476a75926fd8e7d169ea9a183659bf70841fb5c6bfd9699f4823bf9aadf2b"
+    },
+    "manifest.webmanifest": {
+      "bytes": 174,
+      "sha256": "6c9f671a211043ba3210956387fd0268e36fc26e42eebac6637b2d6a244bb672"
+    },
+    "styles.css": {
+      "bytes": 4708,
+      "sha256": "d11c1307c1a476872c50845b120c93632454e4307bedb433087c7901cfb7202a"
+    },
+    "hybrid.css": {
+      "bytes": 736,
+      "sha256": "0d18382d1b66994a2c84a7185a32009830568c330d96cc8c862e38e4beaadd0e"
+    },
+    "pattern-core.js": {
+      "bytes": 8340,
+      "sha256": "7130d7fee226b91b1ee27bdd752419453ae4ae46a4b15c6bf2928cb696dadeaa"
+    },
+    "pattern-line-recognizer.js": {
+      "bytes": 8989,
+      "sha256": "8aa101cda826b31a6115dadc76639efdb24bb5d146369b8866ed3741730377e9"
+    },
+    "pattern-engine.js": {
+      "bytes": 6586,
+      "sha256": "2f83e1e9b69c1194f335ab0c1ecbd79976b93c6dab19b250aaed5bda6594d631"
+    },
+    "hybrid-engine.js": {
+      "bytes": 12869,
+      "sha256": "a45d805d80e09cb3ef5354c3cc312a4dc560c9d9b8564ae581e445c6ea52019d"
+    },
+    "pattern-registry.js": {
+      "bytes": 3266,
+      "sha256": "58dc3b79c6b92e1fee1420e26b3a0a0be4c0b0077f8648f31f07c522b5421e1b"
+    },
+    "puzzles.js": {
+      "bytes": 3302,
+      "sha256": "a38fe7e90863ae67e7f564e916d44aad0ad5c9203675df6589c35a355df76339"
+    },
+    "sw.js": {
+      "bytes": 673,
+      "sha256": "34f802c8c1734a998032caf04b37dc20b167fcbd43120ca5766b6f80af779d6f"
+    },
+    "hybrid-engine.test.js": {
+      "bytes": 1927,
+      "sha256": "4d878eb9339be3b7334681bbbcb8533681baa689519c465acdf65ac80abd3f6d"
+    },
+    "hybrid-semantic.test.js": {
+      "bytes": 3171,
+      "sha256": "fa33daab05854f16e5f2d536b5720a6c45fa74d1a17224c9d38f328110f4a9a8"
+    },
+    "package-validation.test.js": {
+      "bytes": 1300,
+      "sha256": "0b0dc6d4134688d81058243e39232ac5212cf18e3090e2472bb75cee2d0e2939"
+    },
+    "browser-hybrid.test.py": {
+      "bytes": 3277,
+      "sha256": "70e2d6e5bb8a7e66b80071da6477296d746903ee621069f495089072edba9449"
+    },
+    "benchmark-hybrid.js": {
+      "bytes": 7057,
+      "sha256": "df34264d1aaa328d31e189653e40ed6233a80705b51629c9448ac1b360ebbc3f"
+    },
+    "benchmark-results/hybrid-benchmark.json": {
+      "bytes": 468995,
+      "sha256": "2514cd579d18b010fc691d9d20729fd37d06d48f9f552c4e42d0b5fa321c02f7"
+    },
+    "benchmark-results/hybrid-benchmark.md": {
+      "bytes": 2232,
+      "sha256": "9acd5574b7357fa38cc4309d497f07c1268be378ef834b7ba8551a284a597085"
+    }
   },
   "tests": {
-    "syntax": "PASS — registry, puzzles, core, line recognizer, engine, app, service worker",
-    "engineCorpus": "PASS — 13/13 checked; 9/9 easy-medium-hard solved; 4/4 expert blocked cleanly; 0 invalid PatternMatch",
-    "patternMatchContract": "PASS — visible premises + focusSequence + pedagogy + exact validation flags checked",
-    "staticScope": "PASS — Soleil-Lune only; no hidden solution stored",
-    "chromiumHeadless": "NOT VALIDATED — environment DBus timeout"
+    "packageValidation": "PASS",
+    "engineCorpus": "PASS — 52 strategy/puzzle runs; hybrid-full Expert 4/4",
+    "semanticTrace": "PASS — 518 direct patterns; 6 branches; 79 patterns inside branches",
+    "benchmark": "PASS — 636 runs; 53 puzzles; 3 repeats; 0 logical errors",
+    "chromiumLocal": "NOT_EXECUTED — browser download timed out",
+    "deployedBrowser": "PENDING"
   },
-  "packageSha256": "47c0320e01b81c6349891cd9ad0960935f73c3a95cfa1a6e88af00983fbb9629"
+  "limitations": [
+    "Generated difficulty labels are density strata, not human-calibrated difficulty.",
+    "Depth-1 generated puzzles may remain blocked.",
+    "Patterns inside branches reduce Expert exploration but regress wall-clock time in this implementation."
+  ]
 }

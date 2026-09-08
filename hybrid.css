@@ -1,0 +1,7 @@
+.solver-stats{font-size:12px;margin-top:9px;padding:7px;border-radius:8px;background:#f1ede6;color:#4e5963}
+.branch-label{display:block;font-size:12px;font-weight:800;color:#7b3d19}
+.hypothesis{display:block;border-left:4px solid #be6b2d;padding-left:8px}
+.cell.hypothesis-cell{box-shadow:0 0 0 5px #f2b183 inset}
+.cell.hypothetical-step:after{content:attr(data-step);position:absolute;right:3px;top:3px;width:19px;height:19px;border-radius:50%;background:#a95627;color:#fff;font-size:11px;display:grid;place-items:center;font-weight:900}
+.badge.classical{background:#6d597a}.badge.branch{background:#a14f28}
+@media(max-width:760px){.toolbar label{min-width:120px}.tutor-progress{overflow-x:auto;padding-bottom:3px}.dot{flex:0 0 24px}}
