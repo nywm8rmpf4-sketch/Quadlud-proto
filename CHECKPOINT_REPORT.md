@@ -4,7 +4,7 @@ Copyright © 2026 Serge Benoliel. All rights reserved.
 
 ## Gate
 
-Candidate en attente de validation navigateur déployée. Le test humain physique iPhone reste externe.
+`READY_FOR_HUMAN_TEST`. Les validations automatisées, sémantiques et la validation exploratoire réalisable sur le site déployé sont passées. Le test humain physique sur iPhone reste le gate externe suivant.
 
 ## Architecture
 
@@ -30,7 +30,10 @@ Le Solveur progresse jusqu’à résolution ou blocage. Le Logic Coach demande l
 - corpus historique Expert : hybride complet 4/4 ;
 - benchmark : PASS, 636 runs sur 53 puzzles, zéro erreur logique ;
 - navigateur Chromium local : NON EXÉCUTÉ, téléchargement du binaire expiré ;
-- navigateur du site déployé : EN ATTENTE.
+- GitHub Pages run 20 (`34275921262`) : PASS ;
+- navigateur du site déployé : PASS — Coach Expert, conclusion visuelle unique, application du coup, Undo/Redo/reset, Tuteur de contradiction en 11 écrans avec 7 conséquences réelles, résolution Expert complète en 44 conclusions ;
+- inspection visuelle desktop déployée : PASS ;
+- test physique Safari/iPhone : NON EXÉCUTÉ, gate humain externe.
 
 ## Benchmark
 

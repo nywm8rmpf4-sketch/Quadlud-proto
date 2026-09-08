@@ -1,5 +1,6 @@
 {
   "prototype": "PATTERN-PROTO-3-HYBRID",
+  "gate": "READY_FOR_HUMAN_TEST",
   "productBaseline": "12bb8e71d1eaa406f176d99403f34305b596e233",
   "productTangoLogicBlob": "be1e16e4fb0e8b4631f4115c2a4fdf173fc972c2",
   "patternResearchCheckpoint": "09b714b7522b0f94faac8d7c1db786b26c61629d",
@@ -103,11 +104,14 @@
     "semanticTrace": "PASS — 518 direct patterns; 6 branches; 79 patterns inside branches",
     "benchmark": "PASS — 636 runs; 53 puzzles; 3 repeats; 0 logical errors",
     "chromiumLocal": "NOT_EXECUTED — browser download timed out",
-    "deployedBrowser": "PENDING"
+    "pagesDeployment": "PASS — GitHub Pages run 20 / 34275921262",
+    "deployedBrowser": "PASS — Coach, unique conclusion highlight, move/Undo/Redo/reset, 11-frame contradiction tutor, full Expert solve",
+    "physicalIPhone": "NOT_EXECUTED — external human-test gate"
   },
   "limitations": [
     "Generated difficulty labels are density strata, not human-calibrated difficulty.",
     "Depth-1 generated puzzles may remain blocked.",
-    "Patterns inside branches reduce Expert exploration but regress wall-clock time in this implementation."
+    "Patterns inside branches reduce Expert exploration but regress wall-clock time in this implementation.",
+    "Physical Safari/iPhone validation remains to be performed by a human tester."
   ]
 }
