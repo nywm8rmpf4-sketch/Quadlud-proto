@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f6f1e7">
+  <title>QUADLUD Proto — Soleil–Lune Patterns</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="app">
+  <header>
+    <div>
+      <div class="eyebrow">QUADLUD · PROTOTYPE DE RECHERCHE</div>
+      <h1>Soleil–Lune · Patterns</h1>
+      <p class="subtitle">Reconnaissance humaine P001–P018 · aucune solution cachée</p>
+    </div>
+  </header>
+
+  <section class="controls card">
+    <label>Scénario
+      <select id="scenario"></select>
+    </label>
+    <label>Bibliothèque connue
+      <select id="tier">
+        <option value="1">Niveau 1 · P001–P005</option>
+        <option value="2">Niveau 2 · + relations & quotas</option>
+        <option value="3" selected>Niveau 3 · P001–P018</option>
+      </select>
+    </label>
+  </section>
+
+  <section class="game-layout">
+    <div class="board-card card">
+      <div id="board" class="board" aria-label="Plateau Soleil-Lune"></div>
+      <div class="legend">
+        <span><i class="swatch context"></i>contexte</span>
+        <span><i class="swatch focus"></i>focus</span>
+        <span><i class="swatch conclusion"></i>conclusion</span>
+      </div>
+      <div class="toolbar">
+        <button id="undoBtn" class="secondary">Annuler</button>
+        <button id="redoBtn" class="secondary">Rétablir</button>
+        <button id="resetBtn" class="secondary">Réinitialiser</button>
+      </div>
+    </div>
+
+    <div class="coach card">
+      <div class="coach-head">
+        <div>
+          <div class="eyebrow">RECONNAISSANCE PERCEPTIVE</div>
+          <h2 id="patternTitle">Chercher un pattern visible</h2>
+        </div>
+        <span id="patternTier" class="pill">—</span>
+      </div>
+      <p id="patternSummary">Le prototype cherche uniquement parmi les patterns connus du profil choisi.</p>
+      <div id="patternDetails" class="details hidden"></div>
+      <div class="coach-actions">
+        <button id="findBtn">Pattern suivant</button>
+        <button id="explainBtn" class="secondary" disabled>Pourquoi ?</button>
+        <button id="applyBtn" disabled>Jouer la conclusion</button>
+      </div>
+      <div id="status" class="status"></div>
+    </div>
+  </section>
+
+  <details class="catalog card">
+    <summary>Bibliothèque P001–P018</summary>
+    <div id="catalog"></div>
+  </details>
+
+  <footer>Prototype indépendant · Copyright © 2026 Serge Benoliel · All rights reserved.</footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
